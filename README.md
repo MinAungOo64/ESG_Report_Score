@@ -22,7 +22,6 @@ This project uses a custom regression model based on [Longformer](https://huggin
 - `pytorch_model.bin` — Trained model weights (PyTorch)
 - Tokenizer files — From `allenai/longformer-base-4096`
 - `README.md` — Project overview
-- *(Optional)* `config.json` — If wrapping with Hugging Face `PreTrainedModel`
 
 ---
 
