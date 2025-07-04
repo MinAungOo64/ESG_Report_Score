@@ -1,0 +1,64 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 91265529,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/steve/Jupyter Codes/ESG_Report_Score/esg_dataset.csv": {
+      "num_bytes": 91243380,
+      "checksum": null
+    }
+  },
+  "download_size": 91243380,
+  "features": {
+    "e_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "s_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "g_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "total_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 182508909,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 91265529,
+      "num_examples": 866,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
