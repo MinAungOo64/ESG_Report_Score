@@ -19,7 +19,7 @@ The dataset trained on can be found here: https://www.kaggle.com/datasets/jaidit
 
 ### ESG Score methodology
 Information on kaggle stated that ESG scores were obtained from Sustainalytics. However there were no clear information on the methodology of the scoring. Additionally there were no individual e_score, s_core, g_score, only a total_score was found. More information maybe found in the individual reports that are currently unavailable.  
-Regardless, the model will be trained to predict all four outputs eventhough total_score maybe different from the 3 individual scores combined.
+Regardless, the model will be trained to predict all four outputs for experimentation eventhough total_score maybe different from the 3 individual scores combined.
 
 Extracted from Sustainalytics, below shows the scale of ESG ratings, the higher the score, the higher the ESG risks. A lower score is preferred.  
 Negligible: 0-10, Low: 10-20, Medium: 20-30, High: 30-40, Severe: 40+
@@ -171,6 +171,6 @@ The test loss MSE is 27.5613. The RMSE is 5.25.
 This means on average, the prediction score is off by 5.25.  
 This is decent considering loss is calculated with the average loss of all four scores.  
 The prediction can definitely be improved if the model is only trained to predict the 3 score individually then calculated the total score.  
-If we are only concerend about the total score then we can train the model to precit just the total score and the results will be much better.
+If we are only concerned about the total score then we can train the model to predict just the total score and the results will be much better.
 
 ---
